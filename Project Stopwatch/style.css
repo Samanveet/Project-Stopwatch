@@ -1,0 +1,38 @@
+/* @mixin transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+} */
+body{
+    background-color: #32cdc6a8;
+    height: 100%;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#seconds, #tens{
+    font-size: 2em;
+}
+
+button{
+    background-color: darkgray;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    margin: 10px;
+    width: 180px;
+      outline: none;
+    
+}
